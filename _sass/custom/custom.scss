@@ -17,3 +17,23 @@
   background-color: #fff3cd;
   border-color: #ffeeba;
 }
+
+.copyBtn {
+  float: right;
+  position: relative;
+  cursor: pointer;
+  right: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: rgba(0,0,0,0%);
+  color: black;
+  padding: 3px;
+  font-size: 11px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .copyBtn {
+    color: white;
+    border-color: white;
+  }
+}
